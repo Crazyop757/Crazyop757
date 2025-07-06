@@ -1,16 +1,21 @@
-## Hi there 👋
+👋 Hey, I’m Rudra Kushwah
 
-<!--
-**Crazyop757/Crazyop757** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 2nd-year CSE (AI & ML) student at IIIT Nagpur
+🛠️ Building fun things with code, breaking stuff to learn how it works 😄
 
-Here are some ideas to get you started:
+🚀 What I'm up to
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Exploring Machine Learning and AI projects
+Building web apps
+Working on SaaS tools and one-page AI-powered websites
+Participating in hackathons and college fests
+🧠 Tech I'm Learning
+
+Machine Learning (Scikit-learn, regression/classification/clustering)
+Web Dev
+AI Tools & Automation
+Git & GitHub for teamwork and code management
+📫 Let's Connect!
+
+LinkedIn: linkedin.com/in/rudra-kushwah
+Instagram: https://www.instagram.com/rudrakushwah07/
