@@ -12,20 +12,6 @@
 
 ---
 
-## How I got here
-
-```mermaid
-graph LR
-  A["Classical ML<br/>regression · clustering"]
-  B["Deep Learning<br/>neural nets · training"]
-  C["Computer Vision<br/>detection · segmentation"]
-  D["Production AI<br/>Truxt.ai"]
-  A --> B --> C --> D
-  style D fill:#00C853,stroke:#00C853,color:#fff
-```
-
----
-
 ## Now — @ Truxt.ai
 
 Building AI systems that run in production, not notebooks.
@@ -38,16 +24,7 @@ Building AI systems that run in production, not notebooks.
 
 - **Computer Vision** — object detection and segmentation
 - **Deep Learning** — training and evaluating neural networks
-- **Classical ML** — [Real-Estate-ML](https://github.com/Crazyop757/Real-Estate-ML), price prediction with scikit-learn
-
-## Projects
-
-| Project | Stack |
-|---|---|
-| [Real-Estate-ML](https://github.com/Crazyop757/Real-Estate-ML) | Python · scikit-learn |
-| [idea-forge-burst](https://github.com/Crazyop757/idea-forge-burst) | TypeScript |
-| [Ayurveda_website](https://github.com/Crazyop757/Ayurveda_website) | CSS |
-| [gaming_chatroom](https://github.com/Crazyop757/gaming_chatroom) | Hackathon project |
+- **Classical ML** — regression, classification, clustering
 
 ## Toolkit
 
