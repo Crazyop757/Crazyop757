@@ -21,9 +21,12 @@
 Building AI systems that run in production, not notebooks.
 
 - **Fine-tuning** — adapting open models to real workloads, LoRA / parameter-efficient methods, and evaluating whether the result actually improved
-- **Inference &amp; serving** — routing between models, context handling, quantization, and the cost/latency tradeoffs that decide what ships
+- **Inference & serving** — routing between models, context handling, compression, quantization, and the cost/latency tradeoffs that decide what ships
 - **Evaluation** — benchmark harnesses and regression suites, because "it feels better" is not a result
-- **Data &amp; telemetry pipelines** — collection, transformation, and the analytics layer on top
+- **Knowledge graphs** — modelling entities and relationships, record linkage and entity resolution, querying graphs to answer causal questions
+- **Agents & tooling** — tool-calling agents, MCP servers, and CLIs that developers actually keep installed
+- **Data & telemetry pipelines** — collection, transformation, and the analytics layer on top
+- **Infrastructure** — Docker, Linux, cloud deployment, and keeping all of the above running
 - **Shipping** — real users, real constraints, real failure modes
 
 ## Before that
@@ -36,4 +39,4 @@ Building AI systems that run in production, not notebooks.
 
 **ML/DL** `PyTorch` `Transformers` `Hugging Face` `scikit-learn` `OpenCV` `NumPy` `pandas`
 
-**Systems** `Python` `TypeScript` `FastAPI` `Docker` `Linux` `Git` `React`
+**Systems** `Python` `Go` `TypeScript` `FastAPI` `Docker` `Linux` `Git` `React`
