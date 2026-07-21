@@ -10,6 +10,10 @@
   <a href="https://linkedin.com/in/rudra-kushwah">LinkedIn</a>
 </p>
 
+<p align="center">
+  <img src="./whoami.svg" alt="whoami" width="780" />
+</p>
+
 ---
 
 ## Now — @ Truxt.ai
