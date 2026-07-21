@@ -1,29 +1,54 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F700&width=435&lines=Hey+there!+I'm+Rudra+Kushwah;2nd+Year+CSE+(AI+%26+ML)+Student+%F0%9F%94%A5;I+love+building+cool+tech+stuff)](https://git.io/typing-svg)
-
-🎓 2nd-year CSE (AI & ML) student at IIIT Nagpur
-🛠️ Building fun things with code, breaking stuff to learn how it works 😄
+<h1 align="center">Rudra Kushwah</h1>
 
 <p align="center">
-  <img src="https://i.imgur.com/QEHmMUw.gif" width="300" alt="3D Rotating Brain">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C853&center=true&vCenter=true&width=520&lines=CSE+(AI+%26+ML)+%40+IIIT+Nagpur;ML+%E2%86%92+DL+%E2%86%92+Computer+Vision;Now+building+AI+systems+in+production" alt="Typing SVG" />
+  </a>
 </p>
 
-<p align="center"><b>Thinking. Learning. Building. 🧠</b></p>
+<p align="center">
+  <a href="https://linkedin.com/in/rudra-kushwah">LinkedIn</a>
+</p>
 
-🚀 What I'm up to
+---
 
-Exploring Machine Learning and AI projects
-Building web apps
-Working on SaaS tools and one-page AI-powered websites
-Participating in hackathons and college fests
+## How I got here
 
-🧠 Tech I'm Learning
+```mermaid
+graph LR
+  A["Classical ML<br/>regression · clustering"]
+  B["Deep Learning<br/>neural nets · training"]
+  C["Computer Vision<br/>detection · segmentation"]
+  D["Production AI<br/>Truxt.ai"]
+  A --> B --> C --> D
+  style D fill:#00C853,stroke:#00C853,color:#fff
+```
 
-Machine Learning (Scikit-learn, regression/classification/clustering)
-Web Dev
-AI Tools & Automation
-Git & GitHub for teamwork and code management
+---
 
-📫 Let's Connect!
+## Now — @ Truxt.ai
 
-LinkedIn: linkedin.com/in/rudra-kushwah
-Instagram: https://www.instagram.com/rudrakushwah07/
+Building AI systems that run in production, not notebooks.
+
+- LLM infrastructure — routing, context handling, cost
+- Telemetry pipelines and the analytics built on top of them
+- Shipping to real users, with the constraints that come with that
+
+## Before that
+
+- **Computer Vision** — object detection and segmentation
+- **Deep Learning** — training and evaluating neural networks
+- **Classical ML** — [Real-Estate-ML](https://github.com/Crazyop757/Real-Estate-ML), price prediction with scikit-learn
+
+## Projects
+
+| Project | Stack |
+|---|---|
+| [Real-Estate-ML](https://github.com/Crazyop757/Real-Estate-ML) | Python · scikit-learn |
+| [idea-forge-burst](https://github.com/Crazyop757/idea-forge-burst) | TypeScript |
+| [Ayurveda_website](https://github.com/Crazyop757/Ayurveda_website) | CSS |
+| [gaming_chatroom](https://github.com/Crazyop757/gaming_chatroom) | Hackathon project |
+
+## Toolkit
+
+`Python` `PyTorch` `OpenCV` `scikit-learn` `pandas` `TypeScript` `React` `Docker` `Git`
