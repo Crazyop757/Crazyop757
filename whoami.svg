@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 300" width="780" height="300" role="img" aria-label="Terminal running whoami: Rudra Kushwah, third year CSE AI and ML at IIIT Nagpur">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 372" width="820" height="372" role="img" aria-label="Terminal running whoami: Rudra Kushwah, third year CSE AI and ML at IIIT Nagpur">
   <style>
     .win   { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
     .bar   { fill: #161b22; }
@@ -12,16 +12,17 @@
     .key   { fill: #00C853; }
     .val   { fill: #c9d1d9; }
 
-    .line  { opacity: 0; animation: appear 11s ease-out infinite; }
+    .line  { opacity: 0; animation: appear 13s ease-out infinite; }
     .l1 { animation-delay: 1.4s; } .l2 { animation-delay: 1.8s; }
     .l3 { animation-delay: 2.4s; } .l4 { animation-delay: 2.8s; }
     .l5 { animation-delay: 3.2s; } .l6 { animation-delay: 3.6s; }
+    .l7 { animation-delay: 4.0s; } .l8 { animation-delay: 4.4s; }
 
-    .typer { transform-origin: 32px 0; animation: type 11s steps(9, end) infinite; }
+    .typer { transform-origin: 32px 0; animation: type 13s steps(9, end) infinite; }
     .cur   { fill: #00C853; animation: blink 1s steps(2, start) infinite; }
 
-    @keyframes appear { 0%,2% { opacity: 0 } 6% { opacity: 1 } 92% { opacity: 1 } 100% { opacity: 0 } }
-    @keyframes type   { 0% { transform: scaleX(0) } 11% { transform: scaleX(1) } 92% { transform: scaleX(1) } 100% { transform: scaleX(0) } }
+    @keyframes appear { 0%,2% { opacity: 0 } 5% { opacity: 1 } 93% { opacity: 1 } 100% { opacity: 0 } }
+    @keyframes type   { 0% { transform: scaleX(0) } 9% { transform: scaleX(1) } 93% { transform: scaleX(1) } 100% { transform: scaleX(0) } }
     @keyframes blink  { 0%,100% { opacity: 1 } 50% { opacity: 0 } }
 
     @media (prefers-reduced-motion: reduce) {
@@ -33,11 +34,11 @@
 
   <clipPath id="typeclip"><rect class="typer" x="32" y="52" width="140" height="24" /></clipPath>
 
-  <rect class="win" x="1" y="1" width="778" height="298" rx="10" />
-  <path class="bar" d="M1 11a10 10 0 0 1 10-10h758a10 10 0 0 1 10 10v25H1z" />
-  <line class="sep" x1="1" y1="36" x2="779" y2="36" />
+  <rect class="win" x="1" y="1" width="818" height="370" rx="10" />
+  <path class="bar" d="M1 11a10 10 0 0 1 10-10h798a10 10 0 0 1 10 10v25H1z" />
+  <line class="sep" x1="1" y1="36" x2="819" y2="36" />
   <circle cx="22" cy="18" r="5" fill="#ff5f57" /><circle cx="40" cy="18" r="5" fill="#febc2e" /><circle cx="58" cy="18" r="5" fill="#28c840" />
-  <text class="ttl" x="390" y="23" text-anchor="middle">rudra@github — zsh</text>
+  <text class="ttl" x="410" y="23" text-anchor="middle">rudra@github — zsh</text>
 
   <g clip-path="url(#typeclip)">
     <text class="mono prm" x="32" y="70">$</text>
@@ -47,10 +48,12 @@
   <text class="mono name line l1" x="32" y="112">Rudra Kushwah</text>
   <text class="mono sub  line l2" x="32" y="136">3rd year · CSE (AI &amp; ML) · IIIT Nagpur</text>
 
-  <text class="mono line l3" x="32" y="180"><tspan class="key">ml  </tspan><tspan class="val">  regression · classification · clustering</tspan></text>
-  <text class="mono line l4" x="32" y="206"><tspan class="key">dl  </tspan><tspan class="val">  training and evaluating neural nets</tspan></text>
-  <text class="mono line l5" x="32" y="232"><tspan class="key">cv  </tspan><tspan class="val">  object detection · segmentation</tspan></text>
-  <text class="mono line l6" x="32" y="258"><tspan class="key">now </tspan><tspan class="val">  building AI systems in production</tspan></text>
+  <text class="mono line l3" x="32" y="182"><tspan class="key">ml      </tspan><tspan class="val">regression · classification · clustering</tspan></text>
+  <text class="mono line l4" x="32" y="208"><tspan class="key">dl      </tspan><tspan class="val">CNNs · transformers · training pipelines</tspan></text>
+  <text class="mono line l5" x="32" y="234"><tspan class="key">cv      </tspan><tspan class="val">object detection · segmentation</tspan></text>
+  <text class="mono line l6" x="32" y="260"><tspan class="key">llm     </tspan><tspan class="val">fine-tuning · LoRA · evaluation</tspan></text>
+  <text class="mono line l7" x="32" y="286"><tspan class="key">serving </tspan><tspan class="val">inference · routing · quantization</tspan></text>
+  <text class="mono line l8" x="32" y="312"><tspan class="key">now     </tspan><tspan class="val">building AI systems in production</tspan></text>
 
-  <rect class="cur" x="32" y="272" width="9" height="17" />
+  <rect class="cur" x="32" y="328" width="9" height="17" />
 </svg>

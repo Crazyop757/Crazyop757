@@ -11,25 +11,29 @@
 </p>
 
 <p align="center">
-  <img src="./whoami.svg" alt="whoami" width="780" />
+  <img src="./whoami.svg" alt="whoami" width="820" />
 </p>
 
 ---
 
-## Now — @ Truxt.ai
+## Now
 
 Building AI systems that run in production, not notebooks.
 
-- LLM infrastructure — routing, context handling, cost
-- Telemetry pipelines and the analytics built on top of them
-- Shipping to real users, with the constraints that come with that
+- **Fine-tuning** — adapting open models to real workloads, LoRA / parameter-efficient methods, and evaluating whether the result actually improved
+- **Inference &amp; serving** — routing between models, context handling, quantization, and the cost/latency tradeoffs that decide what ships
+- **Evaluation** — benchmark harnesses and regression suites, because "it feels better" is not a result
+- **Data &amp; telemetry pipelines** — collection, transformation, and the analytics layer on top
+- **Shipping** — real users, real constraints, real failure modes
 
 ## Before that
 
 - **Computer Vision** — object detection and segmentation
-- **Deep Learning** — training and evaluating neural networks
-- **Classical ML** — regression, classification, clustering
+- **Deep Learning** — CNNs and transformers, training and evaluating networks end to end
+- **Classical ML** — regression, classification, clustering, feature engineering
 
 ## Toolkit
 
-`Python` `PyTorch` `OpenCV` `scikit-learn` `pandas` `TypeScript` `React` `Docker` `Git`
+**ML/DL** `PyTorch` `Transformers` `Hugging Face` `scikit-learn` `OpenCV` `NumPy` `pandas`
+
+**Systems** `Python` `TypeScript` `FastAPI` `Docker` `Linux` `Git` `React`
