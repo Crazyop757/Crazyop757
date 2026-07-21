@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="800" height="130" role="img" aria-label="Pipeline: ingest, route, compress, ship">
+  <style>
+    .track  { stroke: #8b949e; stroke-width: 1.5; opacity: .35; }
+    .node   { fill: #0d1117; stroke: #00C853; stroke-width: 2; }
+    .core   { fill: #00C853; }
+    .label  { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+              font-size: 13px; fill: #8b949e; letter-spacing: 1.5px; }
+    .cap    { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+              font-size: 11px; fill: #6e7681; letter-spacing: .5px; }
+    .dot    { fill: #00C853; animation: flow 4s linear infinite; }
+    .d2     { animation-delay: 1.33s; }
+    .d3     { animation-delay: 2.66s; }
+    .pulse  { animation: pulse 4s ease-in-out infinite; transform-origin: center; }
+    .p2 { animation-delay: .6s; } .p3 { animation-delay: 1.2s; } .p4 { animation-delay: 1.8s; }
+
+    @keyframes flow {
+      0%   { transform: translateX(0);     opacity: 0; }
+      8%   { opacity: 1; }
+      92%  { opacity: 1; }
+      100% { transform: translateX(570px); opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { r: 7; opacity: .9; }
+      50%      { r: 9; opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dot { animation: none; opacity: .9; }
+      .pulse { animation: none; }
+    }
+  </style>
+
+  <line class="track" x1="115" y1="52" x2="685" y2="52" />
+
+  <circle class="dot"     cx="115" cy="52" r="3.5" />
+  <circle class="dot d2"  cx="115" cy="52" r="3.5" />
+  <circle class="dot d3"  cx="115" cy="52" r="3.5" />
+
+  <circle class="node pulse"    cx="115" cy="52" r="7" />
+  <circle class="node pulse p2" cx="305" cy="52" r="7" />
+  <circle class="node pulse p3" cx="495" cy="52" r="7" />
+  <circle class="node pulse p4" cx="685" cy="52" r="7" />
+
+  <text class="label" x="115" y="88" text-anchor="middle">INGEST</text>
+  <text class="label" x="305" y="88" text-anchor="middle">ROUTE</text>
+  <text class="label" x="495" y="88" text-anchor="middle">COMPRESS</text>
+  <text class="label" x="685" y="88" text-anchor="middle">SHIP</text>
+
+  <text class="cap" x="115" y="108" text-anchor="middle">telemetry</text>
+  <text class="cap" x="305" y="108" text-anchor="middle">cheapest model</text>
+  <text class="cap" x="495" y="108" text-anchor="middle">context</text>
+  <text class="cap" x="685" y="108" text-anchor="middle">production</text>
+</svg>

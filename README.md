@@ -10,6 +10,10 @@
   <a href="https://linkedin.com/in/rudra-kushwah">LinkedIn</a>
 </p>
 
+<p align="center">
+  <img src="./pipeline.svg" alt="ingest to route to compress to ship" width="100%" />
+</p>
+
 ---
 
 ## Now — @ Truxt.ai
