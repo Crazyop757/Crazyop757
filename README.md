@@ -20,7 +20,7 @@
 
 Building AI systems that run in production, not notebooks.
 
-- **Fine-tuning** - adapting open models to real workloads, LoRA / parameter-efficient methods, and evaluating whether the result actually improved
+- **Fine-tuning** - adapting open models to real workloads with LoRA and other parameter-efficient methods, then evaluating whether the result improved
 - **Inference & serving** - routing between models, context handling, compression, quantization, and the cost/latency tradeoffs that decide what ships
 - **Evaluation** - benchmark harnesses and regression suites, because "it feels better" is not a result
 - **Knowledge graphs** - modelling entities and relationships, record linkage and entity resolution, querying graphs to answer causal questions
